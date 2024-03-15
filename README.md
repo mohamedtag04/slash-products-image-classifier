@@ -18,7 +18,7 @@ This project aims to develop an image classifier for the Slash mobile applicatio
     - Model Creation: A pre-trained ResNet50 model is instantiated with the appropriate input shape and number of output classes. The pre-trained weights are utilized as a starting point for the model.
     - Model Compilation: The model is compiled with suitable loss and optimizer functions to optimize training performance.
     - Model Training: The ResNet50 model is trained on the prepared dataset, with hyperparameters such as batch size, number of epochs, and learning rate carefully configured.
-    - Model Evaluation: The trained model's performance is evaluated on a validation dataset to assess its accuracy, loss, and other relevant metrics.
+    - Model Evaluation: The trained model's performance is evaluated on a validation dataset to assess accuracy and other relevant metrics.
 
 4. **Prediction**: The `ImageClassifier.py` script facilitates image classification for new images using the trained ResNet50 model. The following steps are executed:
     - Model Loading: The saved model is loaded from the `saved-model` directory, ensuring continuity between training and prediction phases.
@@ -50,8 +50,17 @@ To thoroughly test the image classifier, follow these steps:
 3. Run the `ImageClassifier.py` script and provide the path to the image as a function parameter.
 4. The script will utilize the loaded model to make predictions on the input image, outputting the predicted class label along with the corresponding confidence score.
 
+### Model Training Progress
+Below is a screenshot of the model training process captured from the command prompt. It showcases the accuracy percentage, loss, and other relevant metrics across different epochs.
+
+![Model Training Screenshot]("Model Building/model_training_results.png")
+
+The training accuracy reached approximately 100% after 18 epochs, while the validation accuracy reached 82.5%. This demonstrates the effectiveness of the training process in achieving high accuracy on both training and validation datasets.
+
+
+
 ### Documentation Video
-[Documentation Video Placeholder - Please Record and Insert Video Link Here]
+[To be recorded]
 
 ### Dependencies
 Ensure that the following dependencies are installed to run the image classifier successfully:
