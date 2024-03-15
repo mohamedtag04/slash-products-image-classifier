@@ -53,7 +53,8 @@ To thoroughly test the image classifier, follow these steps:
 ### Model Training Progress
 Below is a screenshot of the model training process captured from the command prompt. It showcases the accuracy percentage, loss, and other relevant metrics across different epochs.
 
-![Model Training Screenshot]("Model Building/model_training_results.png")
+![Model Training Screenshot](Model Building/model_training_results.png)
+
 
 The training accuracy reached approximately 100% after 18 epochs, while the validation accuracy reached 82.5%. This demonstrates the effectiveness of the training process in achieving high accuracy on both training and validation datasets.
 
