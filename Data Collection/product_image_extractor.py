@@ -7,7 +7,7 @@ State: Completed
 Date: 2024-3-12
 Purpose: This script processes screenshots from the Slash mobile application,
          extracts product images, and saves them for further usage.
-Dependencies: OpenCV, Python
+Dependencies: OpenCV, numpy, os, Python
 Client: Slash Mobile Application
 """
 
